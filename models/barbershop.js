@@ -2,6 +2,8 @@
 module.exports = (sequelize, DataTypes) => {
   const Barbershop = sequelize.define('Barbershop', {
     name: DataTypes.STRING,
+    phone: DataTypes.STRING,
+    schedule: DataTypes.STRING,
     cep: DataTypes.STRING,
     street: DataTypes.STRING,
     number: DataTypes.STRING,
